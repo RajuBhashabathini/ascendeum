@@ -33,7 +33,7 @@ function App() {
       clearInterval(myTimeInterval);
     };
   }, [timer, pauseTimer]);
-  console.log("mouseEventsArray", mouseEventsArray);
+  // console.log("mouseEventsArray", mouseEventsArray);
 
   return (
     <div className="App min-h-screen min-w-screen flex justify-center items-center border border-blue-200 ">
